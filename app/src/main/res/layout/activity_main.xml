@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/purple_200"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/vTop1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_200"
+        android:text="1"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/vTop2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_200"
+        android:text="2"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/vTop3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_200"
+        android:text="3"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/vCenter1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_500"
+        android:text="4"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/vCenter2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_500"
+        android:text="5"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/vCenter3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_500"
+        android:text="6"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/vBottom3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_700"
+        android:text="9"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/vBottom2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_700"
+        android:text="8"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/vBottom1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_700"
+        android:text="7"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
